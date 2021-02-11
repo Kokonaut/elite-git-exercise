@@ -1,5 +1,6 @@
 def foo(number1, number2):
-  return 0
+  number3 = number1 + number2
+  return number3
 
 def test_foo():
   number_a = 2
