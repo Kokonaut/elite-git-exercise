@@ -1,5 +1,6 @@
 def foo(number1, number2):
-  return 0
+  result = number1 + number2
+  return result
 
 def test_foo():
   number_a = 2
@@ -17,4 +18,4 @@ def test_foo():
 if __name__ == '__main__':
   # This calls the test_foo function 
   # when we run from the command line
-  test_foo()  
+  test_foo() 
