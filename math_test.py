@@ -15,7 +15,7 @@ def test_foo():
   assert result == 6
 
   print("All tests on foo finished")
-__name__ = '__main__'
+
 if __name__ == '__main__':
   # This calls the test_foo function
   # when we run from the command line
