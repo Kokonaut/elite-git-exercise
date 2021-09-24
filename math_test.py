@@ -1,7 +1,6 @@
 def foo(number1, number2):
-  result = number1 + number1
+  result = number1 + number2
   return result
-
 
 def test_foo():
   number_a = 2
@@ -17,6 +16,7 @@ def test_foo():
   print("All tests on foo finished")
 
 if __name__ == '__main__':
-  # This calls the test_foo function
+  # This calls the test_foo function 
   # when we run from the command line
-  test_foo()
+  # Test to see if pushed
+  test_foo()  
