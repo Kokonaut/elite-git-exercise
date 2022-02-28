@@ -14,6 +14,8 @@ def test_foo():
   result = foo(number_c, number_d)
   assert result == 6
 
+  # simulated changes
+
   print("All tests on foo finished")
 
 if __name__ == '__main__':
